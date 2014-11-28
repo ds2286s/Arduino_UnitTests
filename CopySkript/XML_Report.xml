@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2014-11-19T15:49:32" time="0.016" name="AllTests">
-  <testsuite name="ArduinoMath" tests="4" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="unitTestADD" status="run" time="0" classname="ArduinoMath" />
-    <testcase name="unitTestSUB" status="run" time="0" classname="ArduinoMath" />
-    <testcase name="unitTestFAK" status="run" time="0" classname="ArduinoMath" />
-    <testcase name="unitTestBINOM" status="run" time="0" classname="ArduinoMath" />
+<testsuites tests="8" failures="0" disabled="0" errors="0" timestamp="2014-11-28T17:10:53" time="0.025" name="AllTests">
+  <testsuite name="ArduinoMath" tests="8" failures="0" disabled="0" errors="0" time="0.019">
+    <testcase name="unitTestADDEQ" status="run" time="0" classname="ArduinoMath" />
+    <testcase name="unitTestADDNE" status="run" time="0.001" classname="ArduinoMath" />
+    <testcase name="unitTestSUBEQ" status="run" time="0" classname="ArduinoMath" />
+    <testcase name="unitTestSUBNE" status="run" time="0" classname="ArduinoMath" />
+    <testcase name="unitTestFAKEQ" status="run" time="0" classname="ArduinoMath" />
+    <testcase name="unitTestFAKNE" status="run" time="0.001" classname="ArduinoMath" />
+    <testcase name="unitTestBINOMEQ" status="run" time="0" classname="ArduinoMath" />
+    <testcase name="unitTestBINOMNE" status="run" time="0" classname="ArduinoMath" />
   </testsuite>
 </testsuites>
